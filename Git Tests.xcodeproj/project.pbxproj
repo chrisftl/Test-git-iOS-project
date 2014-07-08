@@ -21,6 +21,7 @@
 		83122BA2196C5A9100900181 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83122B84196C5A9000900181 /* UIKit.framework */; };
 		83122BAA196C5A9100900181 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83122BA8196C5A9100900181 /* InfoPlist.strings */; };
 		83122BAC196C5A9100900181 /* Git_TestsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83122BAB196C5A9100900181 /* Git_TestsTests.m */; };
+		83122BB7196C5B6400900181 /* CWTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 83122BB6196C5B6300900181 /* CWTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		83122BA7196C5A9100900181 /* Git TestsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestsTests-Info.plist"; sourceTree = "<group>"; };
 		83122BA9196C5A9100900181 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		83122BAB196C5A9100900181 /* Git_TestsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestsTests.m; sourceTree = "<group>"; };
+		83122BB5196C5B6300900181 /* CWTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CWTest.h; path = ../CWTest.h; sourceTree = "<group>"; };
+		83122BB6196C5B6300900181 /* CWTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CWTest.m; path = ../CWTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				83122B92196C5A9000900181 /* Main.storyboard */,
 				83122B95196C5A9000900181 /* CWViewController.h */,
 				83122B96196C5A9000900181 /* CWViewController.m */,
+				83122BB5196C5B6300900181 /* CWTest.h */,
+				83122BB6196C5B6300900181 /* CWTest.m */,
 				83122B98196C5A9000900181 /* Images.xcassets */,
 				83122B87196C5A9000900181 /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83122B91196C5A9000900181 /* CWAppDelegate.m in Sources */,
+				83122BB7196C5B6400900181 /* CWTest.m in Sources */,
 				83122B8D196C5A9000900181 /* main.m in Sources */,
 				83122B97196C5A9000900181 /* CWViewController.m in Sources */,
 			);
